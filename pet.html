@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos pet computação</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Madimi+One&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Define fontes e cores base */
+        body {
+            font-family: "Madimi One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 1.6;
+            color: #333;
+            background-color: #e8f5e9;
+            padding: 20px;
+        }
+
+        /* Estiliza o cabeçalho */
+        header {
+            background-color: #81c784;
+            padding: 20px 0;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+
+        header h1 {
+            color: #ffffff;
+        }
+
+        /* Conteúdo principal com flexbox */
+        main {
+            display: flex;
+            flex-wrap: wrap; /* Permite que os itens se ajustem em telas menores */
+            gap: 20px; /* Espaçamento entre a imagem e o texto */
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Divisão para imagem e texto */
+        .content-section {
+            display: flex;
+            align-items: center; /* Alinha verticalmente */
+            gap: 20px;
+        }
+
+        /* Estilização da imagem */
+        img {
+            border-radius: 10px;
+            width: 50%; /* Define uma largura máxima para a imagem */
+            height: auto;
+        }
+
+        /* Texto ao lado da imagem */
+        .text-section {
+            flex: 1; /* Ocupa o espaço restante */
+        }
+
+        /* Estilização do rodapé */
+        footer {
+            background-color: #81c784;
+            padding: 10px 0;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        footer p {
+            color: #ffffff;
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <p>Pet computação é um programa do ICMC-USP responsável por fortalecer a integração entre a universidade e a comunidade. 
+                Esses dois projetos visam ensinar lógica de programação à alunos de escola pública em São Carlos - SP, como monitora minhas
+                responsabilidades são preparar e ministrar aulas, auxiliar os alunos durante as aulas e propor atividades para serem feitas em
+                aula</p>
+        </section>
+    </main>
+
+    <header>
+        <h1>Monitoria Codifique</h1>
+    </header>
+
+    <main>
+        <div class="content-section">
+            <img src="./assets/adolescente.jpeg" alt="Adolescente programando" />
+            <div class="text-section">
+                <p>Esse projeto é voltado para alunos de ensino médio (15~18 anos), usamos python para ministrar as aulas no curso.</p>
+                <a href="https://pet.icmc.usp.br/codifique#:~:text=O%20Codifique%20%C3%A9%20um%20projeto,aventurarem%20na%20%C3%A1rea%20de%20computa%C3%A7%C3%A3o.">Saiba Mais</a>
+            </div>
+        </div> 
+    </main>
+
+    <header>
+        <h1>Monitoria Codifikids</h1>
+    </header>
+                   
+
+    <main>
+        <div class="content-section">
+            <img src="./assets/Scratch-in-use.jpg" alt="Aula de Scratch" />
+            <div class="text-section">
+                <p>Esse projeto é voltado para alunos do ensino fundamental (11~13 anos) de escolas públicas, usamos o scratch como ferramenta</p>
+                <a href="https://pet.icmc.usp.br/codifikids">Saiba Mais</a>
+            </div>
+        </div> 
+    </main>
+
+    <footer>
+        <p>© 2024 Projetos Pet computação</p>
+    </footer>
+
+</body>
+</html>
